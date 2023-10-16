@@ -3,7 +3,7 @@ body{
 }
 .desktop5{
 
-    color: rgb(0, 0, 0);
+    color:#28282B;
     font-family: 'Comic Sans MS', cursive;
 }
 
@@ -39,4 +39,7 @@ footer a {
     padding-bottom: 0.4vw;
 }
 
-
+.aboutus{
+    color:#28282B;
+    font-family: 'Comic Sans MS', cursive;
+}
