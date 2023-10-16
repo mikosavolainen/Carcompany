@@ -7,6 +7,13 @@ body{
     font-family: 'Comic Sans MS', cursive;
 }
 
+.etusivu_kuva{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5vw;
+}
+
 footer {
     background-color: #28282B; 
     color: #fff; 
@@ -24,10 +31,12 @@ footer a {
     text-align: center;
 }
 .footer_info{
+    padding-top: 0.5vw;
     text-align: left;
 }
 
 .footer_copy{
-    text-align: center;
+    padding-bottom: 0.4vw;
 }
+
 
