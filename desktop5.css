@@ -1,40 +1,33 @@
+body{
+    margin: 0;
+}
 .desktop5{
 
     color: rgb(0, 0, 0);
     font-family: 'Comic Sans MS', cursive;
 }
 
-fooaaaater{
-    width: 100%;
-    height: 10vw;
-    flex-shrink: 0;
-    
-
-    color: #FFF;
-    font-family: 'Comic Sans MS', cursive;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background-color: #28282B;
-
-}
-
 footer {
     background-color: #28282B; 
     color: #fff; 
-    padding: 20px;
-    text-align: center;
     font-family: 'Comic Sans MS', cursive;
+    width: 100%;
 }
 
 footer a {
     color: #fff; 
     text-decoration: none;
-    margin: 0 10px;
-}
 
+}
+.footer_copy, .footer_info{
+    flex: 1;
+    text-align: center;
+}
 .footer_info{
-
-    
+    text-align: left;
 }
+
+.footer_copy{
+    text-align: center;
+}
+
