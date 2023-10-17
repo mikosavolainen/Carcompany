@@ -1,14 +1,8 @@
-document.querySelectorAll('.car button').forEach(button => {
-    button.addEventListener('click', (e) => {
-        if (e.target.innerText === "Add to cart") {
-            // Handle add to cart logic here
-            alert('Added to cart!');
-        } else {
-            // Handle more info logic here
-            alert('More info coming soon!');
-        }
-    });
-});
+function addToCart(productName, productPrice) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push({ name: productName, price: productPrice });
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
 const searchInput = document.getElementById('search-input');
 
 searchInput.addEventListener('keyup', function() {
