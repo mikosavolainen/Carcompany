@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAARAKAUPPA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/header/header.css" />
+
+  </head>
+  <body>
+
+    <header>
+
+      <div class="navbar">
+       <a href="/desktop5.html"><img class="logo" src="/header/logo.png"/></a>
+       
+       <a href="/cars/cart/index.html"><img id="shopCart" src="/header/shoppingCart.png"></a>
+       <a href="#top"><img  id="topButton" src="/header/topArrow.png"></a>
+       <a href="/aboutus.html"><button  class="navbarButton">About Us</button></a>
+       <a href="/cars/index.html"><button  class="navbarButton"> Cars </button></a>  
+       <input class="search-box"type="text" id="search-input" placeholder="Search cars...">
+      </div>
+
+</header>
+
+    <section class="cars-grid">
+        <div class="car">
+            <img src="img/audirs6-img/audilogo.jpg" alt="">
+            <h2>Audi rs6 avant v8 4.2L</h2>
+            <p>Price: 109 000$</p>
+            <button onclick="addToCart('Audi rs6 avant v8 4.2L',109000)">Add to cart</button>
+            <button>More info</button>
+        </div>
+        <div class="car">
+          <img src="img/porsche911gt3-img/porschelogo.jpeg" alt="">
+          <h2>Porsche 911 GT3 V6 4.0L</h2>
+          <p>Price: 184 550$</p>
+          <button onclick="addToCart('Porsche 911 GT3 V6 4.0L',184550)">Add to cart</button>
+          <button>More info</button>
+        </div>
+        <div class="car">
+          <img src="img/audir8-img/audilogo.jpg" alt="">
+          <h2>Audi r8 coupé v10 5.2L </h2>
+          <p>Price: 124 800$</p>
+          <button onclick="addToCart('Audi r8 coupé v10 5.2L ',124800)">Add to cart</button>
+          <button>More info</button>
+        </div>
+    </section>
+<div style="text-align: center; font-size: 3vw">more coming soon</div>
+<script src="javascript.js"></script>
+</body>
+</html>
