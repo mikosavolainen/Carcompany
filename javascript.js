@@ -6,6 +6,7 @@ function addToCart(productName, productPrice) {
 const searchInput = document.getElementById('search-input');
 
 searchInput.addEventListener('keyup', function() {
+    
     const query = this.value.toLowerCase();
     const cars = document.querySelectorAll('.car');
 

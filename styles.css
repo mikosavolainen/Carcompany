@@ -1,10 +1,18 @@
+body{
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 @media (max-width: 800px) and (min-width:0px) {
     body {
         font-family: 'Comic Sans MS', sans-serif;
         margin: 0;
         padding: 0;
         width: 100%;
-        height: auto;
+        height: 100%;
     }
     h1{
         font-size: 1em;
@@ -85,7 +93,7 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        height: auto;
+        height: 100%;
     }
     
     header {
@@ -105,7 +113,6 @@
         text-decoration: none;
         color: #FF0800;
     }
-    
     .cars-grid {
         display: flex;
         flex-wrap:wrap;
