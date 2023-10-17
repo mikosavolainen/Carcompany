@@ -1,0 +1,166 @@
+body{
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+@media (max-width: 800px) and (min-width:0px) {
+    body {
+        font-family: 'Comic Sans MS', sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    h1{
+        font-size: 1em;
+    }
+    header {
+        background-color: #28282B;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    header nav {
+        display: flex;
+    }
+    
+    nav a {
+        margin: 0 5px;
+        text-decoration: none;
+        color: #FF0800;
+        font-size: 5vw;
+    }
+    
+    .cars-grid {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        padding: 50px;
+    }
+    
+    .car {
+        border: 5px solid #28282B;
+        border-radius: 60px;
+        width: 60vw;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    
+    .car img {
+        height: auto;
+        width: 50vw;
+        border-radius: 30px;
+    }
+    
+    button {
+        margin-top: 10px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: #FF0800;
+        font-family: 'Comic Sans MS', sans-serif;
+    }
+    
+    button:hover {
+        background-color: #CF0800;
+    }
+    .search-box {
+        position: relative;
+    }
+    
+    #search-input {
+        width: 20vw;
+        padding: 5px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    #search-input::placeholder {
+        color: #888;
+    }
+}
+@media (min-width:800px) {
+    body {
+        font-family: 'Comic Sans MS', sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    header {
+        background-color: #28282B;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    header nav {
+        display: flex;
+    }
+    
+    nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #FF0800;
+    }
+    .cars-grid {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        padding: 50px;
+    }
+    
+    .car {
+        border: 5px solid #28282B;
+        border-radius: 60px;
+        width: 320px;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    
+    .car img {
+        height: auto;
+        width: 300px;
+        border-radius: 30px;
+    }
+    
+    button {
+        margin-top: 10px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: #FF0800;
+        font-family: 'Comic Sans MS', sans-serif;
+    }
+    
+    button:hover {
+        background-color: #CF0800;
+    }
+    .search-box {
+        position: relative;
+    }
+    
+    #search-input {
+        padding: 5px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    #search-input::placeholder {
+        color: #888;
+    }
+}
+
