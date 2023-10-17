@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/header/header.css" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+         <a href="/desktop5.html"><img class="logo" src="/header/logo.png"/></a>
+  
+         <a href="/cars/cart/index.html"><img id="shopCart" src="/header/shoppingCart.png"></a>
+         <a href="#top"><img  id="topButton" src="/header/topArrow.png"></a>
+         <a href="/aboutus.html"><button  class="navbarButton">About Us</button></a>
+         <a href="/cars/index.html"><button  class="navbarButton"> Cars </button></a>
+        </div>
+  </header>
+    <header></header>
+    <main>
+        <div class="img-cont">
+        <img class="main-img" src="../img/audir8-img/1.jpg" alt="">
+        <ul class="mini-img">
+            <button onclick="changeimage('../img/audir8-img/1.jpg')" class="img-minib"><img class="img-mini" src="../img/audir8-img/1.jpg" alt=""></button>
+            <button onclick="changeimage('../img/audir8-img/2.jpg')" class="img-minib"><img class="img-mini" src="../img/audir8-img/2.jpg" alt=""></button>
+            <button onclick="changeimage('../img/audir8-img/3.jpg')" class="img-minib"><img class="img-mini" src="../img/audir8-img/3.jpg" alt=""></button>
+        </ul>
+        </div>
+        <div class="tabs">
+            <button id="infob" class="tab-button active" onclick="switchTab('info')">Info</button>
+            <button id="specificb" class="tab-button active" onclick="switchTab('specific')">Specific info</button>
+        </div>
+        <section class="tab-content" id="info">
+            <div>
+                <h1>The Audi R8: A Supercar Marvel</h1>
+                <li>
+                    <b>Exceptional Performance:</b> The Audi R8 is celebrated for its extraordinary performance. Beneath the hood lies a mighty 5.2-liter naturally aspirated V10 engine that roars with 562 horsepower and 406 lb-ft of torque. This potent engine propels the R8 from 0 to 60 mph in just 3.4 seconds, establishing it as a high-performance masterpiece.
+                </li>
+                <br>
+                <li>
+                    <b>Quattro All-Wheel Drive:</b> Audi's legendary Quattro all-wheel-drive system is standard on the R8, ensuring superb traction and stability in all driving conditions. Whether you're navigating winding roads or tackling adverse weather, the R8 delivers confidence behind the wheel.
+                </li>
+                <br>
+                <li>
+                    <b>Luxurious Interior:</b> Inside the R8, you'll encounter a cabin that exudes luxury and sophistication. Premium materials, comfortable sport seats, and advanced technology create an environment that seamlessly blends performance with comfort.
+                </li>
+                <br>
+                <li>
+                    <b>Supercar Design:</b> The R8 boasts a stunning exterior design that marries athleticism with elegance. Its sleek lines, distinctive grille, and signature LED lighting make it an attention-grabbing supercar with a timeless appeal.
+                </li>
+                <br>
+                <li>
+                    <b>Advanced Technology:</b> Audi's MMI infotainment system, virtual cockpit, and a range of driver-assistance features are available in the R8. These technologies enhance the driving experience while improving safety and convenience.
+                </li>
+                <br>
+                <li>
+                    <b>Exclusivity:</b> Owning an Audi R8 is a symbol of exclusivity and desirability. It's a rare and powerful machine that commands attention and admiration.
+                </li>
+            </div>
+        </section>
+        <section class="tab-content" id="specific" style="display: none;">
+            <div>
+                <h1>Audi R8 5.2 FSI:</h1>
+                <li>
+                    <b>Engine:</b> 5.2-liter naturally aspirated V10
+                </li>
+                <br>
+                <li>
+                    <b>Horsepower:</b> 562 horsepower
+                </li>
+                <br>
+                <li>
+                    <b>Torque:</b> 406 lb-ft of torque
+                </li>
+                <br>
+                <li>
+                    <b>Transmission:</b> 7-speed S tronic automatic transmission or 6-speed manual
+                </li>
+                <br>
+                <li>
+                    <b>Drive:</b> Quattro all-wheel drive (AWD)
+                </li>
+                <br>
+                <li>
+                    <b>0 to 60 mph:</b> 3.4 seconds
+                </li>
+                <br>
+                <li>
+                    <b>Top Speed:</b> Approximately 201 mph (323 km/h)
+                </li>
+                <br>
+                <li>
+                    <b>Curb Weight:</b> Approximately 3,814 lbs (1,731 kg)
+                </li>
+                <br>
+                <li>
+                    <b>Fuel Efficiency:</b> Fuel efficiency varies depending on driving conditions, but the R8 prioritizes high-performance driving over fuel economy.
+                </li>
+            </div>
+        </section>        
+    </main>
+    <footer style="position: relative;bottom: 0;background-color: #28282B; color: #fff; font-family: 'Comic Sans MS', cursive;width: 100%;">
+        <div style=" flex: 1; text-align: center; padding-top: 0.5vw;text-align: left;">
+            <ol><a style="color: #fff; text-decoration: none;" href='/aboutus.html'>About Us</a></ol>
+            <ol><a style="color: #fff; text-decoration: none;" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs'>Contact (DON'T PRESS!!!)</a></ol>
+            <ol><a style="color: #fff; text-decoration: none;" href='/privacy-policy.html'>Privacy Policy</a></ol>
+            <ol><a style="color: #fff; text-decoration: none;" href='https://discord.me/ravenrp'>Socials</a></ol>
+        </div>
+      
+        <div style=" flex: 1;text-align: center;    padding-bottom: 0.4vw;" class="footer_copy">&copy; 2023 Kaarakauppa. All rights reserved.</div>
+      
+      </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/header/header.css" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+         <a href="/desktop5.html"><img class="logo" src="/header/logo.png"/></a>
+  
+         <a href="/cars/cart/index.html"><img id="shopCart" src="/header/shoppingCart.png"></a>
+         <a href="#top"><img  id="topButton" src="/header/topArrow.png"></a>
+         <a href="/aboutus.html"><button  class="navbarButton">About Us</button></a>
+         <a href="/cars/index.html"><button  class="navbarButton"> Cars </button></a>
+        </div>
+  </header>
+    <header></header>
+    <main>
+        <div class="img-cont">
+        <img class="main-img" src="../img/porsche911gt3-img/2.jpg" alt="">
+        <ul class="mini-img">
+            <button onclick="changeimage('../img/porsche911gt3-img/2.jpg')" class="img-minib"><img class="img-mini" src="../img/porsche911gt3-img/2.jpg" alt=""></button>
+            <button onclick="changeimage('../img/porsche911gt3-img/3.jpeg')" class="img-minib"><img class="img-mini" src="../img/porsche911gt3-img/3.jpeg" alt=""></button>
+            <button onclick="changeimage('../img/porsche911gt3-img/4.jpg')" class="img-minib"><img class="img-mini" src="../img/porsche911gt3-img/4.jpg" alt=""></button>
+        </ul>
+        </div>
+        <div class="tabs">
+            <button id="infob" class="tab-button active" onclick="switchTab('info')">Info</button>
+            <button id="specificb" class="tab-button active" onclick="switchTab('specific')">Specific info</button>
+        </div>
+        <section class="tab-content" id="info">
+            <div>
+                <h1>The Porsche 911 GT3: A High-Performance Legend</h1>
+                <li>
+                    <b>Exceptional Performance:</b> The Porsche 911 GT3 is renowned for its outstanding performance. Under the hood, it boasts a 4.0-liter naturally aspirated flat-six engine that delivers an impressive 502 horsepower and 346 lb-ft of torque. This powerhouse enables the 911 GT3 to accelerate from 0 to 60 mph in a blistering 3.2 seconds, making it a true sports car icon.
+                </li>
+                <br>
+                <li>
+                    <b>Rear-Wheel Drive:</b> The 911 GT3 features rear-wheel drive, offering a pure and engaging driving experience. With its precise handling and responsive steering, it's a track-ready machine that excels on both road and circuit.
+                </li>
+                <br>
+                <li>
+                    <b>Driver-Centric Interior:</b> Step inside the 911 GT3, and you'll find a driver-centric cockpit designed for maximum engagement. High-quality materials, supportive sport seats, and advanced instrumentation create an immersive driving environment.
+                </li>
+                <br>
+                <li>
+                    <b>Track-Ready Design:</b> The 911 GT3's exterior design is a blend of aerodynamic efficiency and aggressive styling. Its large rear wing, distinctive air intakes, and wide stance enhance both its performance and visual appeal.
+                </li>
+                <br>
+                <li>
+                    <b>Advanced Technology:</b> Porsche's infotainment system, along with features like launch control and adaptive suspension, enhance the 911 GT3's capabilities. It's a sports car that doesn't compromise on technology or performance.
+                </li>
+                <br>
+                <li>
+                    <b>Exclusivity:</b> Owning a Porsche 911 GT3 is a mark of distinction. Its limited availability and track-focused pedigree make it highly sought after by enthusiasts and collectors alike.
+                </li>
+            </div>
+        </section>
+        <section class="tab-content" id="specific" style="display: none;">
+            <div>
+                <h1>Porsche 911 GT3 4.0:</h1>
+                <li>
+                    <b>Engine:</b> 4.0-liter naturally aspirated flat-six
+                </li>
+                <br>
+                <li>
+                    <b>Horsepower:</b> 502 horsepower
+                </li>
+                <br>
+                <li>
+                    <b>Torque:</b> 346 lb-ft of torque
+                </li>
+                <br>
+                <li>
+                    <b>Transmission:</b> 7-speed PDK automatic transmission or 6-speed manual
+                </li>
+                <br>
+                <li>
+                    <b>Drive:</b> Rear-wheel drive (RWD)
+                </li>
+                <br>
+                <li>
+                    <b>0 to 60 mph:</b> 3.2 seconds
+                </li>
+                <br>
+                <li>
+                    <b>Top Speed:</b> Approximately 197 mph (317 km/h)
+                </li>
+                <br>
+                <li>
+                    <b>Curb Weight:</b> Approximately 3,126 lbs (1,417 kg)
+                </li>
+                <br>
+                <li>
+                    <b>Fuel Efficiency:</b> Varies depending on driving conditions, but fuel efficiency is not the primary focus of the 911 GT3, given its high-performance nature.
+                </li>
+            </div>
+        </section>        
+    </main>
+    <footer style="position: relative;bottom: 0;background-color: #28282B; color: #fff; font-family: 'Comic Sans MS', cursive;width: 100%;">
+        <div style=" flex: 1; text-align: center; padding-top: 0.5vw;text-align: left;">
+            <ol><a style="color: #fff; text-decoration: none;" href='/aboutus.html'>About Us</a></ol>
+            <ol><a style="color: #fff; text-decoration: none;" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs'>Contact (DON'T PRESS!!!)</a></ol>
+            <ol><a style="color: #fff; text-decoration: none;" href='/privacy-policy.html'>Privacy Policy</a></ol>
+            <ol><a style="color: #fff; text-decoration: none;" href='https://discord.me/ravenrp'>Socials</a></ol>
+        </div>
+      
+        <div style=" flex: 1;text-align: center;    padding-bottom: 0.4vw;" class="footer_copy">&copy; 2023 Kaarakauppa. All rights reserved.</div>
+      
+      </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
